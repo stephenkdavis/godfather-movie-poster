@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+html {
+	/* background-color: black; */
+	text-align: center;
+	font-family: 'Niramit', sans-serif;
+	color: white;
+	background: black;
+}
+/* Page header properities */
+header > h1 {
+	font-size: 3rem;
+	width: 7em;
+	margin: auto;
+}
+/* Hovering over the page title */
+header > h1:hover {
+	color: goldenrod;
+	font-style: italic;
+}
+/* Navigation links - default properities */
+header > nav > a {
+	margin: auto;
+	color: white;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+/* Navigation links - default color */
+header > nav > a:link {
+	color: white;
+}
+/* Navigation links - color when hovering */
+header > nav > a:hover {
+	color: goldenrod;
+}
+/* Navigation links - color when clicked */
+header > nav > a:visited {
+	color: firebrick;
+	text-decoration: line-through;
+}
+/* Poster and frame properities */
+#poster {
+	width: 80rem;
+	height: 111.55rem;
+	background: top center;
+	margin: auto;
+	border: 1.5rem inset darkgray;
+	background: transparent url('../images/godfather-poster.jpg') no-repeat top center;
+	/* The Godfather Poster was retrieved from https://i.pinimg.com/originals/02/3d/de/023ddedf130e0a341a9d930f7b4cf7b7.jpg */
+}
+/* Properities for the quote at the top of the poster */
+section #container-quote {
+	/* border: solid hotpink; */
+	color: white;
+	padding: 3rem;
+	font-size: 2rem;
+}
+/* Properities for the poster logo */
+section #container-godfather-logo {
+	/* border: solid honeydew; */
+	position: relative;
+	bottom: -60rem;
+}
+/* Properities for the poster featuring text */
+section #container-poster-text {
+	/* border: solid orange; */
+	color: #afafaf;
+	font-size: 0.6rem;
+	position: relative;
+	bottom: -62rem;
+}
+/* Properities for the Paramount logo copyright information */
+section #paramount-logo {
+	/* border: solid lawngreen; */
+	position: relative;
+	bottom: -60.5rem;
+	left: -26rem;
+}
+/* Properities for the Paramount text copyright information */
+section #paramount-text {
+	/* border: solid lightskyblue; */
+	color: #afafaf;
+	position: relative;
+	bottom: -56.4rem;
+	font-size: 0.5rem;
+}
+#trailer {
+	margin: auto;
+	border: 1.5rem inset darkgray;
+	width: 560px;
+	height: 315px;
+}
+footer > p {
+	border-top: solid #afafaf;
+	color: #afafaf;
+}
