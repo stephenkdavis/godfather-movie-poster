@@ -1,6 +1,6 @@
 # Godfather Movie Poster
 
-### [View Work on GitHub Pages](https://skdyyz.github.io/godfather-movie-poster/)
+### [View Work on GitHub Pages](https://stephenkdavis.github.io/godfather-movie-poster/)
 
 ## About This Project
 This work was completed for an assignment during my COMP 1002 - HTML, CSS & JS Fundamentals course at Lakehead University. It was completed during my Fall 2019 academic term, in my first year of computer science studies.
